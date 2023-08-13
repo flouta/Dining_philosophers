@@ -1,5 +1,8 @@
 NAME=philo
 CC=gcc
+
+
+
 CFLAGS= -Wall -Wextra -Werror
 RM= rm -f
 SRC =  philo_utils_4.c philo_utils_3.c philo_utils_2.c parsing.c philo_utils.c philo.c init_philos.c
