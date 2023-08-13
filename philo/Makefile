@@ -6,6 +6,9 @@ SRC =  philo_utils_4.c philo_utils_3.c philo_utils_2.c parsing.c philo_utils.c p
 OBJ = $(SRC:.c=.o)
 
 all: $(NAME)
+
+
+
 $(NAME): $(OBJ)
 	gcc $(CFLAGS) $(OBJ) -o $(NAME)
 clean:
